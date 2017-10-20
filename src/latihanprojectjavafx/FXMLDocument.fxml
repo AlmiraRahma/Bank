@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="456.0" prefWidth="439.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111" fx:controller="latihanprojectjavafx.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Label layoutX="167.0" layoutY="14.0" prefHeight="37.0" prefWidth="106.0" text="Biodata" />
+      <Label layoutX="25.0" layoutY="55.0" text="Nama" />
+      <Label layoutX="25.0" layoutY="92.0" text="Absen" />
+      <Label layoutX="25.0" layoutY="129.0" text="Alamat" />
+      <TextField fx:id="nama" layoutX="125.0" layoutY="51.0" />
+      <TextField fx:id="absen" layoutX="125.0" layoutY="88.0" />
+      <TextField fx:id="alamat" layoutX="125.0" layoutY="125.0" />
+      <TextArea fx:id="hasil" layoutX="106.0" layoutY="221.0" prefHeight="200.0" prefWidth="200.0" />
+      <Button fx:id="OK" layoutX="180.0" layoutY="170.0" mnemonicParsing="false" onAction="#proses" text="PROSES" />
+    </children>
+</AnchorPane>
